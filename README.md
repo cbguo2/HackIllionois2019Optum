@@ -36,3 +36,12 @@ Nurses are vital to healthcare but their logistics can deflate their reach to la
 - Perfecting the clustering algorithm by taking more attributes into account 
 - Creating a cleaner UI that is easier for the nurse to navigate
 
+## How to build, install, and use
+**to change dataset:**
+- convert the JSON file to csv with an online converter
+- parse the csv file in the python code on an IDE of choice
+- export the output data of the clustering algorithm and convert back to JSON
+- update JSON file in android studio
+
+-Use data of patient cluster locations and nurse locations as the input to the latitude and longitude for the UI so the markers will display on the map
+
