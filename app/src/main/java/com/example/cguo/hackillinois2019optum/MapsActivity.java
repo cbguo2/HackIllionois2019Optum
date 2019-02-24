@@ -2,7 +2,6 @@ package com.example.cguo.hackillinois2019optum;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
-import android.util.Log;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -11,10 +10,7 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-import java.text.DecimalFormat;
-
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
-
     private GoogleMap mMap;
 
     @Override
@@ -42,9 +38,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng champaign = new LatLng(40.1164, 88.2434);
-        mMap.addMarker(new MarkerOptions().position(champaign).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(champaign));
+        LatLng sydney = new LatLng(42, -82);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 
 
