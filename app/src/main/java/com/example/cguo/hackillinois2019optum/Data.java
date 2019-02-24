@@ -3,7 +3,7 @@ package com.example.cguo.hackillinois2019optum;
 public class Data {
     private Patient[] patients;
     private Employee[] employees;
-    private Task[] tasks;
+    private Cluster[] clusters;
 
     public Patient[] getPatients() {
         return patients;
@@ -13,8 +13,7 @@ public class Data {
         return employees;
     }
 
-    public Task[] getTasks() {
-        return tasks;
+    public Cluster[] getClusters() {
+        return clusters;
     }
-
 }

@@ -23,7 +23,7 @@ public class FileContent {
         // Java uses Paths as an operating system-independent specification of the location of files.
         // In this case, we're looking for files that are in a directory called 'data' located in the
         // root directory of the project, which is the 'current working directory'.
-        final Path path = FileSystems.getDefault().getPath("data", filename);
+        final Path path = FileSystems.getDefault().getPath("Data", filename);
 
         try {
             // Read all of the bytes out of the file specified by 'path' and then convert those bytes
